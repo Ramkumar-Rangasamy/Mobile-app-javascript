@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Apps</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1>Mobile Apps</h1>
+    </div>
+    <!-- age Calculator -->
+    
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <div class="form">
+            <label for="birthday">Enter you date of birth</label>
+            <input type="date" id="birthday" name="birthday">
+            <button id="btn">Calculate Age</button>
+            <p id="result">Your age is 21 years old</p>
+        </div>
+    </div>
+    
+     <!-- weather-data -->
+    <div class="container-one">
+        <h1>Weather App</h1>
+        <form>
+          <input type="text" id="city-input" placeholder="Enter City" />
+          <input type="submit" value="Get Weather" />
+        </form>
+        <div id="weather-data">
+          <div class="icon">
+            <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+          </div>
+          <div class="temperature"></div>
+          <div class="description"></div>
+          <div class="details">
+          </div>
+        </div>
+    </div>
+
+    <!-- calender  -->
+
+   <div class="calendar-body">
+    
+    <div class="calendar-container">
+        <h1>calender</h1>
+        <p class="month-name" id="month-name">April</p>
+        <p class="day-name" id="day-name">Friday</p>
+        <p class="day-number" id="day-number">20</p>
+        <p class="year" id="year">2020</p>
+      </div>
+   </div>
+
+   <!-- clock -->
+   <div class="clock-hand">
+    <h1>Digital Clock</h1>
+    <div class="clock">
+      <div>
+        <span id="hour">00</span>
+        <span class="text">Hours</span>
+      </div>
+      <div>
+        <span id="minutes">00</span>
+        <span class="text">Minutes</span>
+      </div>
+      <div>
+        <span id="seconds">00</span>
+        <span class="text">Seconds</span>
+      </div>
+      <div>
+        <span id="ampm">AM</span>
+      </div>
+    </div>
+   </div>
+
+   <!-- counter -->
+   <div class="container-three">
+     <div class="body-conter">
+        <h1>Counter</h1>
+        <span class="value">0</span>
+        <div class="bit">
+          <button class="btn btn-danger decrease"><i class="fa fa-minus" aria-hidden="true"></i>-</button>
+          <button class="btn btn-secondary reset">Reset</button>
+          <button class="btn btn-success increase"><i class="fa fa-plus" aria-hidden="true">+</i>
+          </button>
+        </div>
+     </div>
+   </div>
+     
+   <!-- stop watch -->
+
+   <div class="stop-body">
+    <h1>Stopwatch</h1>
+    <div id="timer">00:00:00</div>
+   <div id="buttons">
+       <button class="btn-one" id="start">Start</button>
+       <button class="btn-one" id="stop">Stop</button>
+       <button class="btn-one" id="reset">Reset</button>
+   </div>
+   </div>
+
+    <!-- footer -->
+   <div class="footer-main">
+    <div class="credit">
+        <p>Software application developed specifically for use on small, wireless computing devices, such as 
+        smartphones and tablets, rather than desktop or laptop computers.</p>
+        <h3>Copyright &copy; 2023 Mobile Apps,All rights reserved</h3>
+        <h4>Powered by Ramkumar R </h4>
+    </div>
+   </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
